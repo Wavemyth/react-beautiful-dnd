@@ -1,9 +1,9 @@
 {
   "name": "@wavemyth/react-beautiful-dnd",
-  "version": "14.0.2",
+  "version": "14.0.3",
   "description": "Beautiful and accessible drag and drop for lists with React",
   "author": "Wavemyth <office@wavemyth.com>",
-  "types": "src/types/index.d.ts",
+  "types": "dist/index.d.ts",
   "keywords": [
     "drag and drop",
     "dnd",
@@ -51,7 +51,7 @@
     "typecheck": "flow check --max-warnings=0",
     "bundle-size:check": "cross-env SNAPSHOT=match yarn bundle-size:update",
     "bundle-size:update": "yarn build:clean && yarn build:dist && yarn build:clean",
-    "build": "npm run build:clean && npm run build:dist && npm run build:flow",
+    "build": "npm run build:clean && npm run build:dist && npm run build:flow && copy src\\types\\index.d.ts dist\\index.d.ts",
     "build:clean": "rimraf dist",
     "build:dist": "rollup -c",
     "build:flow": "echo \"// @flow\n\nexport * from '../src';\" > dist/react-beautiful-dnd.cjs.js.flow",
