@@ -1,8 +1,9 @@
 {
   "name": "@wavemyth/react-beautiful-dnd",
-  "version": "14.0.1",
+  "version": "14.0.2",
   "description": "Beautiful and accessible drag and drop for lists with React",
-  "author": "Alex Reardon <areardon@atlassian.com>, Wavemyth <office@wavemyth.com>",
+  "author": "Wavemyth <office@wavemyth.com>",
+  "types": "src/types/index.d.ts",
   "keywords": [
     "drag and drop",
     "dnd",
@@ -85,6 +86,7 @@
     "@storybook/react": "5.3.21",
     "@storybook/theming": "5.3.21",
     "@testing-library/react": "10.4.9",
+    "@types/react-beautiful-dnd": "^13.1.8",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.1.0",
     "babel-jest": "25.5.1",
