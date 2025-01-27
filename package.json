@@ -1,8 +1,8 @@
 {
-  "name": "react-beautiful-dnd",
-  "version": "13.1.1",
+  "name": "@wavemyth/react-beautiful-dnd",
+  "version": "14.0.0",
   "description": "Beautiful and accessible drag and drop for lists with React",
-  "author": "Alex Reardon <areardon@atlassian.com>",
+  "author": "Alex Reardon <areardon@atlassian.com>, Wavemyth <office@wavemyth.com>",
   "keywords": [
     "drag and drop",
     "dnd",
@@ -15,12 +15,15 @@
     "beautiful",
     "accessible"
   ],
+  "publishConfig": {
+    "access": "restricted"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atlassian/react-beautiful-dnd.git"
+    "url": "git+https://github.com/wavemyth/react-beautiful-dnd.git"
   },
   "bugs": {
-    "url": "https://github.com/atlassian/react-beautiful-dnd/issues"
+    "url": "https://github.com/wavemyth/react-beautiful-dnd/issues"
   },
   "main": "dist/react-beautiful-dnd.cjs.js",
   "module": "dist/react-beautiful-dnd.esm.js",
@@ -152,5 +155,10 @@
   "license": "Apache-2.0",
   "jest-junit": {
     "output": "test-reports/junit/js-test-results.xml"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "homepage": "https://github.com/atlassian/react-beautiful-dnd#readme"
 }
